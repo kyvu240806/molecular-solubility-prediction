@@ -22,6 +22,12 @@ A machine learning project for predicting molecular solubility using **Multilaye
 
 ## Results
 
+### Prediction vs Experiment
+
+![MLP Prediction](results/mlp/predict_vs_experiment.png)
+
+![GCN Prediction](results/gcn/predict_vs_experiment.png)
+
 ```markdown
 | Model |   MSE   |   RMSE  |   MAE   |   R²    |
 |:-----:|--------:|--------:|--------:|--------:|
@@ -55,7 +61,7 @@ Python · PyTorch · PyTorch Geometric · RDKit · Scikit-learn · Pandas · Num
 
 ```text
 
-├── notebooks/
+├── notebook/
 │   ├── mlp_solubility.ipynb
 │   └── gcn_solubility.ipynb
 ├── models/
@@ -74,4 +80,21 @@ Python · PyTorch · PyTorch Geometric · RDKit · Scikit-learn · Pandas · Num
 │   └── data_curated.csv
 ├── requirements.txt
 └── README.md
+```
 
+## Installation
+
+git clone ...
+cd molecular-solubility-prediction
+
+pip install -r requirements.txt
+
+## Usage
+
+### MLP
+
+jupyter notebook notebook/mlp_solubility.ipynb
+
+### GCN
+
+jupyter notebook notebook/gcn_solubility.ipynb
