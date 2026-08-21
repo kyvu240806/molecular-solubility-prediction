@@ -25,7 +25,7 @@ A machine learning project for predicting molecular solubility using **Multilaye
 ## Results
 
 ```markdown
-| Model |   MSE   |  RMSE  |   MAE   |   R²   |
+| Model |   MSE   |   RMSE  |   MAE   |   R²    |
 |:-----:|--------:|--------:|--------:|--------:|
 |  MLP  | 1.1515  | 1.0731  | 0.7693  | 0.7890  |
 |  GCN  | 1.1781  | 1.0854  | 0.7641  | 0.7841  |
