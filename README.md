@@ -10,8 +10,6 @@ A machine learning project for predicting molecular solubility using **Multilaye
 
 - Architecture: Fully connected neural network
 
-- Task: Solubility regression
-
 ### GCN
 
 - Input: Molecular graphs generated from SMILES
