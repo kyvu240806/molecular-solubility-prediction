@@ -85,6 +85,7 @@ Python · PyTorch · PyTorch Geometric · RDKit · Scikit-learn · Pandas · Num
 ## Installation
 
 git clone ...
+
 cd molecular-solubility-prediction
 
 pip install -r requirements.txt
